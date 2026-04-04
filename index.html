@@ -179,7 +179,7 @@ radial-gradient(80% 140% at -10% -10%, rgba(245,158,11,.24), transparent 60%),
 conic-gradient(from 0deg, rgba(245,210,246,.25), rgba(139,92,246,.25), transparent 70%);
 mix-blend-mode:screen; filter:blur(18px); opacity:.6;
 }
-.pill h4{font-family:'Etude Noire',system-ui;margin-bottom:6px;letter-spacing:.02em}
+.pill .card-title {font-family:'Etude Noire',system-ui;margin-bottom:6px;letter-spacing:.02em}
 .pill p{color:var(--muted)}
 /* === GLASS TABLES — polished === */
 .specs {
@@ -515,9 +515,20 @@ Zeus vs Hades 250 — это зрелищный видеослот от Pragmati
 <!-- ТРИ ПЛАШКИ -->
 <section class="section afterAbout">
 <div class="container pillRow">
-<div class="pill tilt reveal"><h4>Множитель</h4><p><strong style="font-size:18px">До x25000</strong> — Одерживайте победу в грандиозном противостоянии.</p></div>
-<div class="pill tilt reveal"><h4>Режимы</h4><p><strong style="font-size:18px">Олимп и Подземелье</strong> — Две вселенные — два разных пути к триумфу.</p></div>
-<div class="pill tilt reveal"><h4>Честность</h4><p><strong style="font-size:18px">Provably Fair</strong> — Анализируйте каждый раунд.</p></div>
+<div class="pill tilt reveal">
+  <div class="card-title">Множитель</div>
+  <p><strong style="font-size:18px">До x25000</strong> — Одерживайте победу...</p>
+</div>
+
+<div class="pill tilt reveal">
+  <div class="card-title">Режимы</div>
+  <p><strong style="font-size:18px">Олимп и Подземелье</strong> — Две вселенные — два разных пути к триумфу.</p>
+</div>
+
+<div class="pill tilt reveal">
+  <div class="card-title">Честность</div>
+  <p><strong style="font-size:18px">Provably Fair</strong> — Анализируйте каждый раунд.</p>
+</div>
 </div>
 </section>
 
